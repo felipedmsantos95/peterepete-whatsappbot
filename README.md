@@ -9,7 +9,7 @@ Uma piada genuinamente brasileira 🇧
 ## Prévia
 
 <p align="center">
-  <img src="https://github.com/felipedmsantos95/peterepete-whatsappbot/blob/master/assets/peterepete.png"/>
+  <img src="https://github.com/felipedmsantos95/peterepete-whatsappbot/blob/master/img/peterepete.gif"/>
 </p>
 
 ## Requisitos
@@ -71,13 +71,13 @@ Em um segundo terminal, no diretório do Flask instalado, podemos executar
 Um endereço de domínio público temporário será alocado. A saída será a seguinte:
 
 <p align="center">
-  <img src="https://github.com/felipedmsantos95/peterepete-whatsappbot/blob/master/assets/flask.png"/>
+  <img src="https://github.com/felipedmsantos95/peterepete-whatsappbot/blob/master/img/flask.png"/>
 </p>
 
 Copie no painel do Twilio o endereço fornecido e acrescente o `\bot` ao final dele:
 
 <p align="center">
-  <img src="https://github.com/felipedmsantos95/peterepete-whatsappbot/blob/master/assets/twilio_url.png"/>
+  <img src="https://github.com/felipedmsantos95/peterepete-whatsappbot/blob/master/img/twilio_url.png"/>
 </p>
 
 Agora pode testar sua paciência com o nosso Pete&Repete Bot!
