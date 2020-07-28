@@ -7,7 +7,7 @@ app = Flask(__name__)
 greetings = ['ola', 'tudo bem', 'oi', 'hello', 'welcome', 'bem vindo', 'blz', 'eaew', 'e aí', 'como esta', 'boa', 'tarde', 'noite', 'bom dia']
 goodbyes = ['tchau', 'flw', 'embora', 'bye', 'adeus', 'goodbye', 'xau', 'fui', 'indo']
 laughs = ['kk', 'asuah', 'hasuah', 'rsrs', 'lol', 'apoaks' ]
-history = 'É a história de dois cachorros: Pete e Repete. Pete morreu, quem ficou vivo?'
+getout_try = ['o outro', 'outro cachorro', 'a outra', 'outra cachorra']
 
 @app.route('/bot', methods=['POST'])
 def bot():
@@ -16,6 +16,7 @@ def bot():
     resp = MessagingResponse()
     msg = resp.message()
     send_dog_image = False
+    history = 'É a história de dois cachorros: Pete e Repete. Pete morreu, quem ficou vivo?'
     intro = 'Legal o que você falou. Agora eu tenho uma historia...\n'
 
     if any(word in incoming_msg for word in greetings):
@@ -24,10 +25,13 @@ def bot():
     elif any(word in incoming_msg for word in goodbyes):
         send_dog_image = True
         intro = 'Antes de você ir, gostaria de contar uma história...\n'
+    elif any(word in incoming_msg for word in getout_try):
+        intro = 'Qual o nome do outro cachorro?'
+        history = ''
     elif any(word in incoming_msg for word in laughs):
         send_dog_image = True
         intro = 'Engraçado kkk, mas você já viu essa história?\n'
-    elif 'repete' in incoming_msg or 'repeti' in incoming_msg:
+    elif 'repete' in incoming_msg or 'repeti' in incoming_msg or 'nao sei' in incoming_msg:
         intro = ''
     elif 'pete' in incoming_msg:
         intro = 'Resposta errada! Vou explicar de novo...\n'  
