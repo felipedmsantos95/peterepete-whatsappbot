@@ -81,4 +81,10 @@ Copie no painel do Twilio o endereço fornecido e acrescente o `\bot` ao final d
   <img src="https://github.com/felipedmsantos95/peterepete-whatsappbot/blob/master/img/twilio_url.png"/>
 </p>
 
-Agora pode testar sua paciência com o nosso Pete&Repete Bot!
+**Agora pode testar sua paciência com o nosso Pete&Repete Bot!**
+
+
+**Veja também:**
+
+- Tutorial do [Twilio](https://www.twilio.com/blog/build-a-whatsapp-chatbot-with-python-flask-and-twilio) para criar bots genéricos
+- Artigo sobre [Pete e Repete](https://desciclopedia.org/wiki/Pete_e_Repete) do desciclopédia de extrema relevância para este projeto...
