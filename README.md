@@ -32,7 +32,7 @@ $ cd peterepete-whatsappbot
 
 Na seção ["Configure the Twilio WhatsApp Sandbox"](https://www.twilio.com/blog/build-a-whatsapp-chatbot-with-python-flask-and-twilio) é mostrado como configurar o ["WhatsApp Sandbox"](https://www.twilio.com/console/sms/whatsapp/learn) no Twillio, desta forma é possível prosseguir nos passos seguintes.
 
-## Criar ambiente virtual Python
+### Criar ambiente virtual Python
 
 É necessário ter instalado o pacote `virtualenv` no sistema, que pode ser obtido pelo comando seguinte:
 
@@ -48,7 +48,7 @@ $ source whatsapp-bot-venv/bin/activate
 ```
 NOTA: para verificar o diretório correto do Python 3 em seu sistema, pode-se executar `which python3`
 
-## Rodando o Chatbot
+### Rodando o Chatbot
 
 Para executar o chatbot, basta executar `python bot.py`, a saída será a seguinte:
 
