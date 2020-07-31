@@ -75,7 +75,7 @@ Um endereço de domínio público temporário será alocado. A saída será a se
   <img src="https://github.com/felipedmsantos95/peterepete-whatsappbot/blob/master/img/flask.png"/>
 </p>
 
-Copie no painel do Twilio o endereço fornecido e acrescente o `\bot` ao final dele:
+Copie no painel do Twilio o endereço fornecido e acrescente o `/bot` ao final dele:
 
 <p align="center">
   <img src="https://github.com/felipedmsantos95/peterepete-whatsappbot/blob/master/img/twilio_url.png"/>
