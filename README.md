@@ -88,4 +88,4 @@ Copie no painel do Twilio o endereço fornecido e acrescente o `/bot` ao final d
 
 - Tutorial do [Twilio](https://www.twilio.com/blog/build-a-whatsapp-chatbot-with-python-flask-and-twilio) para criar bots genéricos
 - Vídeo do canal [Geek2Code](https://www.youtube.com/watch?v=a4xBBq8aEag&feature=youtu.be) sobre projeto de bots
-- Para descontrair, um artigo sobre [Pete e Repete](https://desciclopedia.org/wiki/Pete_e_Repete) do desciclopédia
+- Para descontrair, um artigo sobre [Pete e Repete](https://desciclopedia.org/wiki/Pete_e_Repete) do desciclopédia 
